@@ -1,20 +1,21 @@
 {
-    "name": "nickprofessor/buscador-de-cursos",
-    "description": "Projeto que busca cursos da Alura",
-    "type": "library",
-    "autoload": {
-        "psr-4": {
-            "Nickprofessor\\BuscadorDeCursos\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Nickollas",
-            "email": "nickollassilva90@gmail.com"
-        }
-    ],
-    "require": {
-        "guzzlehttp/guzzle": "^7.9",
-        "symfony/dom-crawler": "^7.1"
+  "name": "nickprofessor/buscador-de-cursos",
+  "description": "Projeto que busca cursos da Alura",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Nickprofessor\\BuscadorDeCursos\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "Nickollas",
+      "email": "nickollassilva90@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.9",
+    "symfony/dom-crawler": "^7.1",
+    "symfony/css-selector": "^7.1"
+  }
 }
