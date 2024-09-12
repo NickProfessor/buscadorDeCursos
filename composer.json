@@ -4,8 +4,11 @@
   "type": "library",
   "autoload": {
     "psr-4": {
-      "Nickprofessor\\BuscadorDeCursos\\": "src/"
-    }
+      "Alura\\BuscadorDeCursos\\": "src/"
+    },
+    "files": [
+      "./functions.php"
+    ]
   },
   "authors": [
     {
