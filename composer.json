@@ -38,5 +38,9 @@
   },
   "scripts-descriptions": {
     "check": "Verifica o código com PHAN, PHPCS e PHPUNIT"
-  }
+  },
+  "license": "GPL-3.0",
+  "bin": [
+    "buscador-de-cursos.php"
+  ]
 }
